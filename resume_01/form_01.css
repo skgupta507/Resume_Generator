@@ -1,0 +1,990 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap");
+* {
+  margin: 0;
+  font-family: "Poppins", "sans-serif";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: burlywood;
+  position: absolute;
+}
+.container_01 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+.resume_form_container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.hero_section {
+  display: flex;
+  width: 50%;
+  height: 780px;
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+.hero_field {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.resume_form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.first_col,
+.second_col,
+.third_col,
+.four_col,
+.five_col {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  background: linear-gradient(to right, #ec6f66, #f3a183);
+  height: 780px;
+}
+.first_col h3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 33px;
+  color: #332e27;
+
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 1.1rem;
+}
+.div_fields {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.upper_section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.custom-file-upload:hover {
+  box-shadow: inset 300px 0 0 0 #332e27;
+  color: black;
+  font-weight: 600;
+  width: 370px;
+}
+
+input[type="file"] {
+  display: none;
+}
+#your_profile_image .uplaod_msg {
+  display: none;
+}
+.custom-file-upload {
+  display: flex;
+  height: 50px;
+  margin: 0px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  outline: 1px solid #ffee00;
+}
+#addressField {
+  height: 90px;
+}
+.fields {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.name_field {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.input_01 {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.input_02 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-around;
+  width: 85%;
+}
+.input_02 input {
+  background-color: rgb(222, 222, 222);
+}
+.input_02 input,
+textarea,
+input {
+  width: 100%;
+  padding-top: 3px;
+  height: 45px;
+  margin: 9px;
+  border: none;
+  border-radius: 4px;
+  resize: vertical;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 3px #fff;
+}
+.photo_field {
+  display: flex;
+  margin: 18px 0px 6px 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.supp {
+  height: 35px;
+  display: flex;
+  width: 100%;
+  font-weight: 600;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #0099ef;
+  color: white;
+  border-color: #0099ef;
+}
+.supp:hover {
+  background-color: #05a3ff;
+  color: white;
+}
+#db_01 {
+  top: 654px;
+}
+::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+/* first column end here ---||---  */
+.box_input button {
+  border: none;
+  box-shadow: 0px 0px 3px #fff;
+  top: 533px;
+  margin: 9px;
+  outline: none;
+  width: 232px;
+  font-size: 15px;
+  height: 48px;
+  align-items: center;
+}
+.box_input input {
+  width: 350px;
+  padding-top: 3px;
+  height: 45px;
+  margin: 9px;
+  border: none;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 4px;
+  resize: vertical;
+  text-align: center;
+}
+.imp_text {
+  display: flex;
+  width: 68%;
+  color: white;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.second_col {
+  display: none;
+}
+.second_col h2 {
+  display: flex;
+  align-items: center;
+  font-size: 33px;
+  color: #ffee00;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 0.9rem;
+}
+.input_0 textarea,
+.bcc textarea {
+  height: 90px;
+}
+/* Second column end here ---||--- */
+
+.third_col {
+  display: none;
+}
+.third_col h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #ffee00;
+}
+.third_col label {
+  display: flex;
+}
+.input_0 {
+  display: flex;
+  width: 458px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.input_00 {
+  width: 458px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  display: none;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+.add_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px 10px 10px;
+  width: 160px;
+  align-content: center;
+}
+.bbtn,
+.cancle_btn {
+  width: 60px;
+  height: 45px;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 2px;
+  font-size: 18px;
+}
+.bbtn:hover,
+.cancle_btn:hover {
+  background-color: #37115a;
+}
+.back_can_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.dateadd {
+  display: inherit;
+}
+.input_ {
+  width: 439px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  color: #ffffff;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid #ffee00;
+  border-radius: 3px;
+}
+#btn1:hover,
+#btn2:hover,
+#btn3 :hover {
+  box-shadow: inset 300px 0 0 0 yellow;
+  color: black;
+}
+.btns {
+  display: flex;
+  border-radius: 6px;
+  border: 1px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-weight: 530;
+}
+.btn_gen {
+  display: none;
+  position: relative;
+  padding: 7px;
+  border: 1px;
+  width: 100px;
+  font-weight: 500;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background: #007a63;
+}
+.btn_gen_text {
+  transition: all 0.2s;
+  color: white;
+}
+.back_button,
+.next_button {
+  width: 120px;
+  font-weight: 500;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  border-radius: 6px;
+  border: 1px;
+  height: 45px;
+}
+.angle0 {
+  margin-right: 6px;
+  font-size: 17px;
+}
+
+.angle1 {
+  margin-left: 6px;
+  font-size: 17px;
+}
+.back_button:hover {
+  color: rgb(194, 3, 3);
+}
+
+.next_button:hover {
+  color: rgb(2, 164, 2);
+}
+.bcc {
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.four_col {
+  display: none;
+}
+.four_col h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #ffee00;
+}
+.four_col label {
+  display: flex;
+}
+.input_profec,
+.input_educ,
+.input_skl {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+/* Forth column end here ---||--- */
+
+.five_col {
+  display: none;
+}
+.five_col h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  margin-bottom: 27px;
+  color: #ffee00;
+  text-align: center;
+  width: 249px;
+}
+.five_col label {
+  display: flex;
+  width: 90%;
+  font-weight: 600;
+}
+.ebtn,
+.cpbtn,
+.sbtn,
+.qbtn {
+  color: white;
+  border: 1px solid #ffee00;
+  background-color: transparent;
+  border-radius: 3px;
+}
+.cpbtn:hover,
+.ebtn:hover,
+.sbtn:hover,
+.qbtn:hover {
+  background: #ffee00;
+  color: black;
+  font-weight: 500;
+  width: 180px;
+  height: 45px;
+}
+
+.back_btn_cert,
+.cnacel_btn_cert {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.btn_gen_text {
+  transition: all 0.2s;
+  font-size: 18px;
+  color: #fff;
+  background: #29ca8e;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  place-content: center;
+  display: grid;
+  box-shadow: 0 8px 5px -5px rgb(0 0 0 / 20%);
+}
+
+.input_proj,
+.input_cert {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  pointer-events: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  animation: an1 1s ease-in-out infinite;
+}
+
+@keyframes an1 {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+/* Fifth column end here ----||---- */
+.direction_button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  width: 450px;
+}
+
+ul {
+  color: white;
+}
+p {
+  margin-bottom: 18px;
+}
+.box_input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+button {
+  border: none;
+  top: 550px;
+  margin: 9px;
+  outline: none;
+  width: 180px;
+  font-size: 15px;
+  height: 45px;
+  align-items: center;
+}
+
+/* responsive code ---> */
+@media screen and (min-width: 1024px) {
+  .resume_form_container {
+    height: 640px;
+    width: 969px;
+  }
+  .hero_section {
+    height: 640px;
+  }
+  .input_02 input,
+  textarea,
+  input {
+    height: 35px;
+    width: 370px;
+    margin: 12px !important;
+  }
+  textarea {
+    height: 65px !important;
+  }
+  #alable,
+  #elable {
+    width: 370px !important;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+  }
+  .first_col,
+  .second_col,
+  .third_col,
+  .four_col,
+  .five_col {
+    width: 50% !important;
+    height: 640px;
+  }
+  .first_col h3,
+  .second_col h2,
+  .third_col h3,
+  .five_col h3 {
+    font-size: 31px;
+    margin-bottom: 0.6rem;
+    color: #332e27;
+  }
+  .four_col h3 {
+    display: none;
+  }
+  .qbtn,
+  .sbtn,
+  .ebtn,
+  .custom-file-upload {
+    height: 35px !important;
+    margin-top: 10px;
+  }
+  .direction_button {
+    height: 35px;
+    margin-top: 12px;
+    width: 388px;
+    justify-content: space-between;
+  }
+  button {
+    height: 35px !important;
+  }
+  .box_input input {
+    height: 35px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  .custom-file-upload,
+  .custom-file-upload:hover {
+    width: 240px;
+  }
+  .upper_section {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+  }
+  .upper_section_text {
+    font-size: 18px;
+  }
+  .bcc {
+    padding: 0;
+  }
+  .input_ {
+    width: 395px;
+  }
+  .bbtn,
+  .cancle_btn {
+    height: 35px;
+  }
+  .imp_text li {
+    width: 395px;
+  }
+  .four_col label {
+    width: 90%;
+    font-weight: 600;
+  }
+  .five_col h3 {
+    width: 90%;
+    display: none;
+  }
+  .btn_gen_text {
+    height: 50px !important;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .resume_form_container {
+    width: 90%;
+  }
+  .first_col,
+  .second_col,
+  .third_col,
+  .four_col,
+  .five_col {
+    height: 780px;
+  }
+  .first_col h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .hero_section {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .first_col,
+  .second_col,
+  .third_col,
+  .four_col,
+  .five_col {
+    width: 460px;
+  }
+  .input_02 {
+    width: 431px;
+  }
+  .div_fields {
+    width: 426px;
+  }
+  #db_01 {
+    top: 721px;
+    width: 460px;
+  }
+  label {
+    margin-left: 15px;
+  }
+  #db_02 {
+    top: 719px;
+    width: 476px;
+  }
+  #db_03 {
+    width: 460px;
+  }
+  #db_04 {
+    width: 460px;
+  }
+  #db_05 {
+    width: 462px;
+    top: 652px;
+  }
+  .btn_gen_text {
+    margin-top: 15px;
+  }
+  .five_col h3 {
+    top: 29px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .input_02 input,
+  textarea,
+  input {
+    width: 338px;
+  }
+  label {
+    width: 90%;
+  }
+  .input_ {
+    width: 374px;
+  }
+  .input_ input {
+    width: 180px;
+  }
+  .div_fields {
+    height: 790px;
+    width: 367px;
+  }
+  .first_col,
+  .second_col,
+  .third_col,
+  .four_col,
+  .five_col {
+    width: 380px;
+  }
+  .first_col h3 {
+    width: 80%;
+    top: 14px;
+  }
+  #db_01 {
+    top: 721px;
+    width: 376px;
+  }
+  .second_col h2 {
+    top: 37px;
+  }
+  .input_01 {
+    top: 325px;
+  }
+  .input_02 {
+    top: 109px;
+    width: 368px;
+  }
+  #db_02 {
+    top: 716px;
+    width: 382px;
+  }
+  .imp_text {
+    width: 315px;
+    top: 95px;
+  }
+  .direction_button {
+    width: 100%;
+    top: 695px;
+  }
+
+  .third_col h3 {
+    top: 22px;
+  }
+  .cancle_btn,
+  .bbtn {
+    width: 30px;
+    height: 45px;
+    color: #fff;
+    background: #2f0953;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .input_00 {
+    width: 378px;
+    top: 249px;
+  }
+  .input_0 {
+    width: 378px;
+    top: 70px;
+  }
+  .input_ input {
+    width: 154px;
+  }
+  #db_03 {
+    top: 699px;
+    width: 385px;
+  }
+  .four_col h3 {
+    top: 20px;
+  }
+  .input_profec {
+    width: 376px;
+    top: 101px;
+  }
+  .input_educ {
+    width: 389px;
+    top: 206px;
+  }
+  .input_skl {
+    width: 382px;
+    top: 518px;
+  }
+  #db_04 {
+    top: 703px;
+    width: 382px;
+  }
+  .five_col h3 {
+    top: 19px;
+  }
+  .input_cert {
+    width: 379px;
+    top: 123px;
+  }
+  .input_proj {
+    width: 379px;
+    top: 345px;
+  }
+  #db_05 {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .input_02 input,
+  textarea,
+  input {
+    width: 95%;
+  }
+  .first_col h3 {
+    font-size: 33px;
+    text-align: center;
+  }
+  .first_col {
+    width: 350px;
+  }
+  .custom-file-upload {
+    width: 297px;
+    height: 138px;
+  }
+  .div_fields {
+    height: 100%;
+    padding: 0px;
+  }
+  #db_01 {
+    top: 721px;
+    width: 350px;
+  }
+  .input_ input {
+    width: 140px;
+  }
+  .input_02 {
+    top: 109px;
+    width: 322px;
+  }
+  .second_col {
+    width: 355px;
+  }
+  .second_col h2 {
+    top: 29px;
+  }
+  .imp_text {
+    width: 322px;
+    top: 80px;
+  }
+  .imp_text li {
+    width: 90%;
+  }
+  .box_input input {
+    width: 316px;
+  }
+  .input_profec,
+  .input_educ,
+  .input_skl {
+    width: 90%;
+  }
+  .four_col h3 {
+    top: 34px;
+  }
+  .third_col,
+  .four_col {
+    width: 355px;
+  }
+  .third_col h3 {
+    top: 22px;
+  }
+  .input_00 {
+    width: 321px;
+    top: 230px;
+  }
+  .input_0 {
+    width: 329px;
+    top: 78px;
+  }
+  .input_ {
+    width: 350px;
+  }
+  #db_03 {
+    top: 682px;
+    width: 352px;
+  }
+  #db_04 {
+    width: 350px;
+  }
+  .five_col {
+    width: 355px;
+  }
+  .input_cert,
+  .input_proj {
+    width: 328px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .first_col h3 {
+    text-align: center;
+    font-size: 27px;
+  }
+  .first_col,
+  .third_col,
+  .second_col,
+  .four_col,
+  .five_col {
+    width: 320px;
+  }
+  #db_01 {
+    top: 721px;
+    width: 314px;
+  }
+  .div_fields {
+    width: 314px;
+  }
+  .imp_text {
+    width: 295px;
+  }
+  .input_01 {
+    top: 356px;
+  }
+  #db_02 {
+    top: 739px;
+    width: 315px;
+  }
+  .box_input input {
+    width: 282px;
+  }
+  .input_ {
+    width: 326px;
+  }
+  .input_ input {
+    width: 122px;
+  }
+  #db_03 {
+    width: 319px;
+    top: 710px;
+  }
+  .first_col h3 {
+    width: 60%;
+    top: 14px;
+  }
+  #db_04 {
+    width: 318px;
+  }
+
+  .four_col h3,
+  .third_col h3 {
+    font-size: 31px;
+    top: 34px;
+  }
+  .input_02 {
+    top: 109px;
+    width: 290px;
+  }
+  .input_00 {
+    width: 289px;
+    top: 249px;
+  }
+  .input_0 {
+    width: 296px;
+    top: 88px;
+  }
+  .input_cert,
+  .input_proj {
+    width: 300px;
+  }
+  #db_05 {
+    width: 322px;
+  }
+}

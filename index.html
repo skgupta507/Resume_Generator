@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Resume</title>
+    <link rel="icon" type="image/x-icon" href="./fav-icons/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./css_files/resume_templete_images.css" />
+    <link rel="stylesheet" href="./css_files/style.css" />
+  </head>
+  <style>
+    .n_cp img {
+      height: 60px;
+      width: 60px;
+    }
+  </style>
+  <body>
+    <!-- html code started here -->
+    <!-- navigation start from here -->
+    <div class="nav_container">
+      <div class="n_cp">
+        <img src="./Images/logo.png" />
+        <h3 class="logo_text">Cloud Resume</h3>
+        <i class="hamburger bx bx-menu" id="menus"></i>
+        <i class="cros_ic bx bx-x" id="cross"></i>
+      </div>
+      <nav class="menu">
+        <a class="menuItem active" aria-current="page" href="#">Home</a>
+        <a class="menuItem" href="./resume_reviews/rrviews.html" target="_blank"
+          >Reviews</a
+        >
+        <a class="menuItem" href="#">Contact</a>
+        <a class="menuItem" href="./Login/login.html"
+          ><i class="login_btn fas fa-sign-in-alt"></i>Login
+        </a>
+      </nav>
+    </div>
+    <!-- front_page  -->
+    <section class="front_page">
+      <div class="bg_img">
+        <div class="container">
+          <div class="main_div1">
+            <div class="front_info">
+              <h1>Build a <span>Professional</span> Resume in Minutes</h1>
+              <p class="lead">
+                Save time with our easy 3-step resume builder. No more writer’s
+                block or formatting difficulties in Word. Rapidly make a perfect
+                resume employers love.
+              </p>
+              <a href="#Resume_img" class="btn_gs">Create My Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume templete selection  -->
+    <section class="slideshow-container" id="Resume_img">
+      <div class="mySlides_info">
+        <h3>Beautiful ready-to-use resume templates</h3>
+        <p>
+          Win over employers and recruiters by using one of our 18 elegant,
+          professionally-designed resume templates. Download to word or PDF.
+        </p>
+      </div>
+      <div class="mySlides">
+        <div class="imagee">
+          <img
+            class="res_img"
+            src="./resume_templete_images/resume_01.png"
+            id="r_img_01"
+            target="_blank"
+          />
+          <button
+            onclick="location.href = './resume_forms/form.html'"
+            id="r_img_btn_01"
+            class="cl_h"
+          >
+            Use This Template
+          </button>
+        </div>
+      </div>
+      <div class="mySlides">
+        <div class="imagee">
+          <img
+            class="res_img"
+            src="./resume_templete_images/resume_02.png"
+            id="r_img_02"
+          />
+          <button
+            onclick="location.href = './resume_forms/form.html'"
+            class="cl_h"
+            target="_blank"
+            id="r_img_btn_02"
+          >
+            Use This Template
+          </button>
+        </div>
+      </div>
+      <div class="mySlides">
+        <div class="imagee">
+          <img
+            class="res_img"
+            src="./resume_templete_images/resume_03.jpg"
+            id="r_img_03"
+          />
+          <button
+            onclick="location.href = './resume_forms/form.html'"
+            class="cl_h"
+            id="r_img_btn_03"
+            target="_blank"
+          >
+            Use This Template
+          </button>
+        </div>
+      </div>
+      <div class="mySlides">
+        <div class="imagee">
+          <img
+            class="res_img"
+            src="./resume_templete_images/resume_01.png"
+            id="r_img_04"
+          />
+          <button
+            class="cl_h"
+            onclick="location.href = './resume_forms/advance_form.html'"
+          >
+            Use This Template
+          </button>
+        </div>
+      </div>
+      <div class="mySlides">
+        <div class="imagee">
+          <img
+            class="res_img"
+            src="./resume_templete_images/resume_01.png"
+            id="r_img_05"
+          />
+          <button class="cl_h" onclick="alt_fun()">Use This Template</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer of this project -->
+    <footer class="ab_footer">
+      <p>Made with <span>❤️</span> by Ganesh Ghadge</p>
+    </footer>
+
+    <!--========== HTML2PDF ==========-->
+    <!-- <script src="./resume/assets/js/html2pdf.bundle.min.js"></script> -->
+
+    <!--========== MAIN JS ==========-->
+    <!-- <script src="./resume/assets/js/main.js"></script> -->
+    <script src="./index.js"></script>
+    <script>
+      // const image_div = document.querySelectorAll(".mySlides");
+      // window.addEventListener("scroll", img_animation);
+
+      // const img_animation = () => {
+      //   const triggerBottom = (window.innerHeight / 5) * 4;
+      //   image_div.forEach((box) => {
+      //     const boxTop = box.getBoundingClientRect().top;
+      //     if (boxTop < triggerBottom) {
+      //       box.classList.add("show");
+      //     } else {
+      //       box.classList.remove("show");
+      //     }
+      //   });
+      // };
+    </script>
+  </body>
+</html>
